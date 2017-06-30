@@ -1,7 +1,7 @@
 html {
     min-height:100%;
     background: #141e30;
-    background: -webkit-linear-gradient(to top, #141e30, #243b55);
+    background: -webkit-gradient(linear, left bottom, left top, from(#141e30), to(#243b55));
     background: linear-gradient(to top, #141e30, #243b55);
 }
 
@@ -32,6 +32,7 @@ h2 {
 }
 
 #wrapper {
+    -webkit-box-shadow: 10px 14px 65px 4px rgba(0,0,0,0.75);
     box-shadow: 10px 14px 65px 4px rgba(0,0,0,0.75);
 }
 
@@ -59,6 +60,7 @@ h2 {
 }
 
 label {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
     padding: 10px 20px;
@@ -66,6 +68,7 @@ label {
 
 input {
     padding: 10px 20px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background: #eee;
     border: 0;

@@ -19,5 +19,9 @@
   "dependencies": {
     "express": "^4.15.3",
     "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0"
   }
 }
