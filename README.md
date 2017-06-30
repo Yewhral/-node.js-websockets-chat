@@ -3,7 +3,7 @@
 I wrote a simple chat to get better understanding of websockets (using sockets.io).
 This web app also uses other Node.js tool - Express, JS ECMA6, and of course some basic CSS and HTML.
 
-Here's the screenshot:
+Here's the screenshot: http://i.imgur.com/m372BUv.jpg
 
 How to run locally:
 1. Make sure you have Node.js installed
