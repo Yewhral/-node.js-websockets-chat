@@ -34,7 +34,7 @@ message.addEventListener('keypress', () => {
 const getTime = () => {
   let timeNow = new Date();
   let hh = timeNow.getHours();
-  let mm = timeNow.getMinutes()+1;
+  let mm = timeNow.getMinutes();
   let ss = timeNow.getSeconds();
 
     if(hh < 10) {
@@ -48,7 +48,6 @@ const getTime = () => {
     }
     timeNow = '[' + hh + ':' + mm + ':' + ss + ']';
     return timeNow;
-
 };
 
 // Listeners
