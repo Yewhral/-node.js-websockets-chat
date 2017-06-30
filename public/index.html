@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Websockets trial project</title>
+    <title>Websockets chatroom</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-<div id="logo"></div>
+<div id="wrapper">
+    <div id="logo">
+        <h1>Chatroom #4398</h1>
+    </div>
     <div id="chat">
         <div id="chat-window">
             <div id="output"></div>
@@ -18,7 +21,7 @@
         <input id="message" type="text" placeholder="message">
         <button id="send">Send!</button>
     </div>
-
+</div>
 
 
     <script src="chat.js"></script>
